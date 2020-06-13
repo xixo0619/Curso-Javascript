@@ -1,0 +1,96 @@
+DOM -- document object manager
+
+//Tipos de datos//
+
+//String
+"Hola mundo" 
+'ACM1PT' 
+
+//Numeros
+99
+-99
+
+//Booleanos
+true
+false
+
+//Arreglos
+['joe','ryan','coco']
+[1,2,3]
+[true,false,true]
+
+//Object
+{
+    "username": 'ryan',
+    "score": 70.25,
+    "hours":14,
+    "proffesional": true
+    
+}
+
+//Variables
+var name = "pedro";
+let lastname = "perez";
+const pi = 3.1416;
+
+console.log(name + ' ' + lastname);
+
+//Operadores
+let numOne = 60;
+let numTwo = 100;
+
+let result = numOne + numTwo;
+
+let comparacion = numOne > numTwo;
+
+console.log(result);
+console.log(comparacion)
+
+let name = 'juan'
+let lastname = 'perez'
+
+let completeName = name + ' ' + lastname;
+console.log(completeName)
+
+//Condicionales
+let passwordDB = '1234'
+
+let input = 'pepe123';
+
+let result = input == passwordDB;
+
+if (result === true){
+    console.log('Login Correcto');
+} else {
+    console.log('contraseña incorrecta');
+}
+
+if (result === false){
+    console.log('Login incorrecto');
+}
+
+
+let score = 10;
+
+if (score > 30){
+    console.log('ALV!')
+}else if (score > 15){
+    console.log('OLV!')
+}
+else {
+    console.log('ACM1PT!!!')
+}
+
+
+let typeCard = 'Debid card';
+
+switch(typeCard){
+   case 'Debid card':
+       console.log('Es debid card');
+       break;
+    case 'Credit Card':
+        console.log('Credit Card');
+        break;
+    default:
+      console.log('No tenes nada');       
+}
